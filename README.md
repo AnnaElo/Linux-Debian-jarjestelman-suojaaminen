@@ -1,10 +1,12 @@
-# Securing-Linux-Debian-13
+# Linux: Debian-järjestelmän suojaaminen (v.13 "Trixie")
 
-Ajankohtaisten suojamekanismien listaaminen Debianin 13. versiossa (codename "Trixie"), niiden arviointi ja käyttöönotto-ohjeistus.
+Ajankohtaisten suojamekanismien listaaminen Debianin 13. versiossa ("Trixie"), niiden automatisointi sekä käyttöönotto-ohjeistus loppukäyttäjälle. Yleisen kybersään ja tietoturvapäivitysten seuraaminen.
+
 
 ## Kenelle?
 
-Ohjeet on kirjoitettu kotikäyttäjille ja opiskelijoille, jotka käyttävät Debian 13:a omalla koneellaan. Komentorivin perusteet riittävät: jokainen ohje kertoo, mitä komento tekee, miten tuloksen voi tarkistaa ja miten muutoksen saa perutuksi.
+Ohjeet on kirjoitettu pääosin kotikäyttäjille ja alan opiskelijoille, jotka käyttävät Debian 13:a omalla koneellaan. Komentorivin perusteet riittävät: jokainen ohje kertoo, mitä komento tekee, miten tuloksen voi tarkistaa ja miten muutoksen saa perutuksi.
+
 
 ## Miten ohjeita käytetään?
 
@@ -41,7 +43,7 @@ Repoon tuodaan automaattisesti (GitHub Actions) ajankohtaista tietoa, joka koske
 | 3 | [CVE](https://www.cve.org/) ja [CISA KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) | Aktiivisesti hyödynnetyt haavoittuvuudet Linux-ohjelmistoissa |
 | 4 | [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks) ja [ANSSI:n Linux-suositukset](https://cyber.gouv.fr/en/publications/configuration-recommendations-gnulinux-system) | Koventamissuositusten muutokset (kuukausittainen tarkistus) |
 
-Tavoitteena on viikkokooste ja erillinen issue kriittisistä haavoittuvuuksista.
+Tavoitteena on viikko/kuukausikooste ja erillinen issue kriittisistä haavoittuvuuksista.
 
 ## Rakenne
 
