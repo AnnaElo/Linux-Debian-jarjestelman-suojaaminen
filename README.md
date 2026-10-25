@@ -19,7 +19,7 @@ Ohjeet on kirjoitettu kotikäyttäjille ja opiskelijoille, jotka käyttävät De
 
 | # | Aihe | Miksi tärkeä | Tila |
 |---|---|---|---|
-| 1 | Automaattiset tietoturvapäivitykset (`unattended-upgrades`) | Useimmat hyökkäykset käyttävät haavoittuvuuksia, joihin on jo korjaus | Tulossa |
+| 1 | [Automaattiset tietoturvapäivitykset](ohjeet/automaattiset-tietoturvapaivitykset.md) (`unattended-upgrades`) | Useimmat hyökkäykset käyttävät haavoittuvuuksia, joihin on jo korjaus | Valmis |
 | 2 | Palomuuri (`nftables` / `ufw`) | Estää yhteydet palveluihin, joita ei ole tarkoitettu ulkoverkolle | Tulossa |
 | 3 | [Root-käyttöoikeuksien rajoittaminen](ohjeet/root-kayttooikeuksien-rajoittaminen.md) | Ylläpito `sudo`n kautta, root-kirjautuminen estetty | Valmis |
 | 4 | SSH:n suojaaminen | Avainkirjautuminen ja salasanakirjautumisen esto, jos SSH on käytössä | Tulossa |
